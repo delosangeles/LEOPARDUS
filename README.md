@@ -16,18 +16,18 @@ System made in PHP / Laravel for all types of use, CMS, ERP, ECOMMERCE, AIO.
 	+ Tokenizer PHP Extension
 	+ XML PHP Extension
 
-### Install composer.
+## Install composer.
 It is important to have composer installed in our equipment and for this you must do it through its official site.
 [Install Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
-### First open the prompt of your operating system
+## First open the prompt of your operating system
 	* If you use Windows, use cmd.exe
 	* If you use Linux (Debian / Ubuntu) open your terminal
 
 	Once the terminal is open, locate the place where we place the project. then execute the following command in your terminal
 	$ git clone https://github.com/GALEJ/LEOPARDUS.git
 
-# Install global dependencies
+## Install global dependencies
 
 ### Composer 
 
@@ -35,10 +35,10 @@ It is important to have composer installed in our equipment and for this you mus
 composer install
 ```
 
-# If there is a problem
+## If there is a problem
 ## Common mistakes:
 
-###**First Run**
+### **First Run**
 
 * **file_get_contents(): Filename cannot be empty**
 
