@@ -1,0 +1,26 @@
+.tb1{
+    position: absolute;
+    top: 131px;
+    width: 40%;
+    left: 260px;
+}
+.tb2{
+    position: absolute;
+    top: 152px;
+    left: 787px;
+    width: 40%;
+}
+.boton{
+    width: 50%;
+    position: absolute;
+
+    left: 247px;
+    top: -4px;
+}
+.user{
+    position: absolute;
+    top: 73px;
+    width: 70%;
+    left: 311px;
+
+}
