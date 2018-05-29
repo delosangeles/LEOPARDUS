@@ -5,6 +5,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2018-05-29
+### Added
+- Module Installer helper
+- Module Update helper
+
+### Deprecated
+- Auth helper
+
+### Fixed
+- Config Dotenv Editor
+
 ## [0.1.0] - 2018-05-23
 ### Fixed
 - Install module
