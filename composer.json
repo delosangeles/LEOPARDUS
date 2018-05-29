@@ -32,7 +32,9 @@
             "Modules\\": "modules/"
         },
         "files": [
-            "app/Helpers/auth.php"
+            "app/Helpers/auth.php",
+            "app/Helpers/moduleInstalled.php",
+	        "app/Helpers/moduleInstall.php"
         ]
     },
     "autoload-dev": {

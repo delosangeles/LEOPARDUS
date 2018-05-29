@@ -1,4 +1,6 @@
 <?php
+
+// DEPRECATED checkAndShareAuth
 if (!function_exists('checkAndShareAuth')) {
 	//
 	function checkAndShareAuth()

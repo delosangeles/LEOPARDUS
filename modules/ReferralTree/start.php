@@ -15,3 +15,13 @@
 if (!app()->routesAreCached()) {
     require __DIR__ . '/Http/routes.php';
 }
+
+/*
+|--------------------------------------------------------------------------
+| Module Installer
+|--------------------------------------------------------------------------
+*/
+
+if (!moduleInstalled($path = __DIR__)) {
+    moduleInstall($path);
+}
