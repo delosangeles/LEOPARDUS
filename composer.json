@@ -34,7 +34,8 @@
         "files": [
             "app/Helpers/auth.php",
             "app/Helpers/moduleInstalled.php",
-	        "app/Helpers/moduleInstall.php"
+            "app/Helpers/moduleInstall.php",
+            "app/Helpers/isConfigured.php",
         ]
     },
     "autoload-dev": {

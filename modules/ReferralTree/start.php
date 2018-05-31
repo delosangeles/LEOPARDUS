@@ -1,5 +1,5 @@
 <?php
-
+if( isConfigured() ) {
 /*
 |--------------------------------------------------------------------------
 | Register Namespaces And Routes
@@ -22,6 +22,7 @@ if (!app()->routesAreCached()) {
 |--------------------------------------------------------------------------
 */
 
-if (!moduleInstalled($path = __DIR__)) {
-    moduleInstall($path);
+	if (!moduleInstalled($path = __DIR__)) {
+	    moduleInstall($path);
+	}
 }
