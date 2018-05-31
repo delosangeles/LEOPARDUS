@@ -11,7 +11,8 @@
 | this file as you want.
 |
 */
-
-if (!app()->routesAreCached()) {
-    require __DIR__ . '/Http/routes.php';
+if( !isConfigured() ) {
+	if (!app()->routesAreCached()) {
+	    require __DIR__ . '/Http/routes.php';
+	}
 }
